@@ -1,3 +1,4 @@
 get '/' do
-  todays_bills
+  @bills = todays_bills
+  erb :index
 end
