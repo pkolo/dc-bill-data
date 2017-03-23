@@ -1,4 +1,11 @@
 <% @bills.each do |bill| %>
-  <%= bill %>
+  Bill No.: <%= bill["bill"] %>
+  <br>
+  Title: <%= bill["title"] %>
+  <br>
+  Sponsor: <%= bill["sponsor"] %>
+  <br>
+  Last Action: <%= bill["actions"][0]["description"] %>
   <br><br>
+
 <% end %>
