@@ -1,2 +1,2 @@
 ### Purpose
-An attempt at flagging congressional bills that seek to interfere with DC city laws.
+Work in progress -- An attempt at flagging congressional bills that seek to interfere with DC city laws.
